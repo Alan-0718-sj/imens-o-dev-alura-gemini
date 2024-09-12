@@ -17,7 +17,6 @@ A página principal contém o esqueleto do site e inclui:
 O projeto utiliza dois arquivos CSS:
 
 - `styles.css`: Para o layout geral da página e elementos visuais.
-- `button.css`: Para a estilização de botões.
 
 ### 3. JavaScript (`app.js` e `dados.js`)
 O projeto usa JavaScript para controlar a lógica da pesquisa e exibir os resultados.
