@@ -57,4 +57,4 @@ O projeto usa JavaScript para controlar a lógica da pesquisa e exibir os result
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/usuario/filmes-hackers.git
+   git clone https://github.com/Alan-0718-sj/imensao-dev-alura-gemini-filmes-hackers.git
