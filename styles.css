@@ -302,4 +302,78 @@ a {
 p {
    color: #F5F7F8;
 }
+
+/* Responsividade */
+@media (max-width: 1024px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        letter-spacing: 0.2rem;
+    }
+
+    section input {
+        width: 90%;
+    }
+
+    .resultados-pesquisa {
+        width: 90%;
+        height: auto;
+    }
+
+    .item-resultado h2 {
+        font-size: 1.2rem;
+    }
+
+    .item-resultado {
+        padding: 0.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 1.8rem;
+        letter-spacing: 0.1rem;
+    }
+
+    section input {
+        width: 100%;
+    }
+
+    section button {
+        width: 100%;
+        padding: 0.6rem;
+    }
+
+    .resultados-pesquisa {
+        width: 100%;
+    }
+
+    .item-resultado {
+        margin-bottom: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    section input {
+        font-size: 0.9rem;
+        padding: 0.8rem;
+    }
+
+    section button {
+        font-size: 0.9rem;
+        padding: 0.6rem;
+    }
+
+    footer {
+        font-size: 0.8rem;
+    }
+}
+
  
