@@ -46,6 +46,9 @@ O projeto usa JavaScript para controlar a lógica da pesquisa e exibir os result
    [Mais informações](https://en.wikipedia.org/wiki/Who_Am_I_(2014_film))  
    [Assista o vídeo](https://www.youtube.com/watch?v=5vnjheCqRIs)
 
+### Projeto
+[Filmes Hackers](https://imensao-dev-alura-gemini-filmes-hackers.vercel.app/)
+
 ### Funcionalidades
 
 - **Pesquisa dinâmica**: O usuário pode pesquisar filmes e atores através de palavras-chave, e os resultados são atualizados automaticamente com base nos dados armazenados em `dados.js`.
