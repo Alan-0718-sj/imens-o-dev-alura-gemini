@@ -32,7 +32,7 @@ section {
 
 /* Estiliza os inputs dentro das seções */
 section input {
-    width: 90%;
+    width: 30rem;
     border: none;
     padding: 1rem;
     border-radius: 1.5rem;
