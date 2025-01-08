@@ -3,124 +3,119 @@
 
 /* Estiliza o corpo da página */
 body {
-    font-family: "Chakra Petch", sans-serif;
-    background-color: #130f0f;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-height: 100vh;
+    font-family: "Chakra Petch", sans-serif; /* Define a fonte padrão */
+    background-color: #130f0f; /* Cor de fundo da página */
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    justify-content: center; /* Centraliza os itens verticalmente */
+    height: 100vh; /* Preenche a altura total da viewport */
     margin: 0;
     padding: 0;
 }
 
-/* Estiliza o cabeçalho */
-header {
-    width: 100%;
-    padding: 1rem;
-    box-sizing: border-box;
-}
 
 /* Estiliza os títulos h1 */
 h1 {
-    font-size: 2.5rem;
-    color: #222831;
-    text-align: center;
-    letter-spacing: 0.4rem;
+    font-size: 2.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    letter-spacing: 0.4rem; /* Espaçamento entre letras */
 }
 
-/* Estiliza a seção de pesquisa */
-.search-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 90%;
-    max-width: 60rem;
-    margin: 2rem 0;
+/* Estiliza as seções da página */
+section {
+    display: flex; /* Usa Flexbox para layout */
+    flex-direction: column; /* Alinha os itens na vertical */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
 }
 
-/* Estiliza os inputs dentro da seção de pesquisa */
-.search-section input {
-    width: 100%;
-    border: none;
-    padding: 1rem;
-    border-radius: 1.5rem;
-    margin-bottom: 1rem;
-    color: #45474B;
-    font-size: 1rem;
-    box-sizing: border-box;
+/* Estiliza os inputs dentro das seções */
+section input {
+    width: 30rem; /* Largura dos inputs */
+    border: none; /* Remove a borda padrão */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 1.5rem; /* Borda arredondada */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+    color: #45474B; /* Cor do texto */
+    font-size: 1rem; /* Tamanho da fonte */
+    box-sizing: border-box; /* Inclui padding e border na largura total */
 }
 
-/* Estiliza os botões dentro da seção de pesquisa */
-.search-section button {
-    width: 100%;
-    padding: 0.8rem 1.2rem;
-    border: none;
-    border-radius: 1.5rem;
-    background-color: #30475E;
-    color: #F5F7F8;
-    font-size: 1rem;
-    cursor: pointer;
+/* Estiliza os botões dentro das seções */
+section button {
+    padding: 0.8rem 1.2rem; /* Espaçamento interno do botão */
+    border: none; /* Remove a borda padrão */
+    border-radius: 1.5rem; /* Borda arredondada */
+    background-color: #30475E; /* Cor de fundo do botão */
+    color: #F5F7F8; /* Cor do texto do botão */
+    font-size: 1rem; /* Tamanho da fonte */
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
 }
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-    width: 90%;
-    max-width: 60rem;
-    overflow-y: auto;
-    margin-top: 1rem;
-    padding: 1rem;
-    border-radius: 0.6rem;
+    width: 60rem; /* Largura máxima da caixa de resultados */
+    height: 46vh; /* Altura máxima da caixa de resultados */
+    overflow-y: auto; /* Adiciona rolagem vertical se necessário */
+    margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
+    padding: 1rem; /* Espaçamento interno */
+    border-radius: 0.6rem; /* Borda arredondada */
 }
 
 /* Estiliza cada item de resultado */
 .item-resultado {
-    background: #FFFFFF;
-    border-radius: 0.6rem;
-    padding: 1rem;
-    margin-bottom: 1rem;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: #FFFFFF; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 1rem; /* Espaçamento interno */
+    margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
-    font-size: 1.5rem;
-    color: #222831;
+    font-size: 1.5rem; /* Tamanho da fonte */
+    color: #222831; /* Cor do texto */
 }
 
 /* Estiliza os links dentro dos itens de resultado */
 .item-resultado a {
-    text-decoration: none;
-    color: #30475E;
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: #30475E; /* Cor do texto dos links */
 }
 
 /* Estiliza os links quando são passados o mouse sobre */
 .item-resultado a:hover {
-    text-decoration: underline;
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
 }
 
 /* Estiliza a descrição meta dentro dos itens de resultado */
 .descricao-meta {
-    color: #45474B;
-    margin: 0.5rem 0;
+    color: #45474B; /* Cor do texto */
+    margin: 0.5rem 0; /* Margem acima e abaixo */
 }
 
 /* Estiliza o rodapé da página */
 footer {
-    background-color: #0a0a0a;
-    color: #45474B;
-    text-align: center;
-    padding: 1rem;
-    width: 100%;
-    box-sizing: border-box;
-    font-size: 1rem;
+    background-color: #0a0a0a; /* Cor de fundo do rodapé */
+    color: #45474B; /* Cor do texto */
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 0; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    position: absolute; /* Posiciona o rodapé */
+    bottom: 0; /* Alinha ao fundo da página */
+    font-size: 1rem; /* Tamanho da fonte */
 }
 
-/* Estiliza os parágrafos */
-p {
-    color: #F5F7F8;
+
+
+a {
+    text-decoration: none;
+    color:deeppink
 }
 
-/* Glitch animation styles */
+/* 101010 */
 .glitch {
     position: relative;
     font-size: 40px;
@@ -129,102 +124,186 @@ p {
     color: #0a0a0a;
     letter-spacing: 5px;
     z-index: 1;
-    animation: shift 1s ease-in-out infinite alternate;
-}
-
-.glitch:before,
-.glitch:after {
+    -webkit-animation: shift 1s ease-in-out infinite alternate;
+            animation: shift 1s ease-in-out infinite alternate;
+ }
+ 
+ .glitch:before,
+ .glitch:after {
     display: block;
     content: attr(data-glitch);
     position: absolute;
     top: 0;
     left: 0;
     opacity: 0.8;
-}
-
-.glitch:before {
-    animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+    
+ }
+ 
+ .glitch:before {
+    -webkit-animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
+            animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) both infinite;
     color: #06c141;
     z-index: -1;
-}
-
-.glitch:after {
+ }
+ 
+ .glitch:after {
     animation: glitch 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94) reverse both infinite;
     color: #08b9b0;
     z-index: -2;
-}
-
-@keyframes glitch {
-    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
-        transform: translate(0);
+ }
+ 
+ @-webkit-keyframes glitch {
+    0% {
+       -webkit-transform: translate(0);
+               transform: translate(0);
     }
+ 
     20% {
-        transform: translate(-3px, 3px);
+       -webkit-transform: translate(-3px, 3px);
+               transform: translate(-3px, 3px);
     }
+ 
     40% {
-        transform: translate(-3px, -3px);
+       -webkit-transform: translate(-3px, -3px);
+               transform: translate(-3px, -3px);
     }
+ 
     60% {
-        transform: translate(3px, 3px);
+       -webkit-transform: translate(3px, 3px);
+               transform: translate(3px, 3px);
     }
+ 
     80% {
-        transform: translate(3px, -3px);
+       -webkit-transform: translate(3px, -3px);
+               transform: translate(3px, -3px);
     }
-}
-
-@keyframes shift {
-    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
-        transform: skewX(0deg);
+ 
+    to {
+       -webkit-transform: translate(0);
+               transform: translate(0);
     }
-    41% {
-        transform: skewX(10deg);
+ }
+ 
+ @keyframes glitch {
+    0% {
+       -webkit-transform: translate(0);
+               transform: translate(0);
     }
-    42% {
-        transform: skewX(-10deg);
+ 
+    20% {
+       -webkit-transform: translate(-3px, 3px);
+               transform: translate(-3px, 3px);
     }
-    59% {
-        transform: skewX(40deg) skewY(10deg);
+ 
+    40% {
+       -webkit-transform: translate(-3px, -3px);
+               transform: translate(-3px, -3px);
     }
+ 
     60% {
-        transform: skewX(-40deg) skewY(-10deg);
+       -webkit-transform: translate(3px, 3px);
+               transform: translate(3px, 3px);
     }
+ 
+    80% {
+       -webkit-transform: translate(3px, -3px);
+               transform: translate(3px, -3px);
+    }
+ 
+    to {
+       -webkit-transform: translate(0);
+               transform: translate(0);
+    }
+ }
+ @-webkit-keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+       -webkit-transform: skewX(0deg);
+               transform: skewX(0deg);
+    }
+ 
+    41% {
+       -webkit-transform: skewX(10deg);
+               transform: skewX(10deg);
+    }
+ 
+    42% {
+       -webkit-transform: skewX(-10deg);
+               transform: skewX(-10deg);
+    }
+ 
+    59% {
+       -webkit-transform: skewX(40deg) skewY(10deg);
+               transform: skewX(40deg) skewY(10deg);
+    }
+ 
+    60% {
+       -webkit-transform: skewX(-40deg) skewY(-10deg);
+               transform: skewX(-40deg) skewY(-10deg);
+    }
+ 
     63% {
-        transform: skewX(10deg) skewY(-5deg);
+       -webkit-transform: skewX(10deg) skewY(-5deg);
+               transform: skewX(10deg) skewY(-5deg);
     }
+ 
     70% {
-        transform: skewX(-50deg) skewY(-20deg);
+       -webkit-transform: skewX(-50deg) skewY(-20deg);
+               transform: skewX(-50deg) skewY(-20deg);
     }
+ 
     71% {
-        transform: skewX(10deg) skewY(-10deg);
+       -webkit-transform: skewX(10deg) skewY(-10deg);
+               transform: skewX(10deg) skewY(-10deg);
     }
+ }
+ @keyframes shift {
+    0%, 40%, 44%, 58%, 61%, 65%, 69%, 73%, 100% {
+       -webkit-transform: skewX(0deg);
+               transform: skewX(0deg);
+    }
+ 
+    41% {
+       -webkit-transform: skewX(10deg);
+               transform: skewX(10deg);
+    }
+ 
+    42% {
+       -webkit-transform: skewX(-10deg);
+               transform: skewX(-10deg);
+    }
+ 
+    59% {
+       -webkit-transform: skewX(40deg) skewY(10deg);
+               transform: skewX(40deg) skewY(10deg);
+    }
+ 
+    60% {
+       -webkit-transform: skewX(-40deg) skewY(-10deg);
+               transform: skewX(-40deg) skewY(-10deg);
+    }
+ 
+    63% {
+       -webkit-transform: skewX(10deg) skewY(-5deg);
+               transform: skewX(10deg) skewY(-5deg);
+    }
+ 
+    70% {
+       -webkit-transform: skewX(-50deg) skewY(-20deg);
+               transform: skewX(-50deg) skewY(-20deg);
+    }
+ 
+    71% {
+       -webkit-transform: skewX(10deg) skewY(-10deg);
+               transform: skewX(10deg) skewY(-10deg);
+    }
+ }
+
+
+p {
+   color: #F5F7F8;
 }
 
 /* Responsividade */
-@media (max-width: 1024px) {
-    h1 {
-        font-size: 2rem;
-        letter-spacing: 0.2rem;
-    }
-
-    .search-section input {
-        font-size: 0.9rem;
-        padding: 0.8rem;
-    }
-
-    .search-section button {
-        font-size: 0.9rem;
-        padding: 0.6rem;
-    }
-
-    .resultados-pesquisa {
-        width: 90%;
-    }
-
-    .item-resultado h2 {
-        font-size: 1.2rem;
-    }
-}
-
 @media (max-width: 768px) {
     h1 {
         font-size: 1.8rem;
